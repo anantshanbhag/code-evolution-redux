@@ -1,5 +1,7 @@
+import CakeContainer from "./components/CakeContainer";
+
 function App() {
-  return <div>Hello World</div>;
+  return <CakeContainer />;
 }
 
 export default App;
