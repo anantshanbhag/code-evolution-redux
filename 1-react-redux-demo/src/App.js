@@ -7,6 +7,7 @@ import HooksIceCreamContainer from "./components/HooksIceCreamContainer copy";
 import NewHooksCakeContainer from "./components/NewHooksCakeContainer";
 import ItemContainer from "./components/ItemContainer";
 import UserContainer from "./components/UserContainer";
+import SagaUserContainer from "./components/SagaUserContainer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <NewHooksCakeContainer />
       <ItemContainer isCake />
       <UserContainer />
+      <SagaUserContainer />
     </Provider>
   );
 }
